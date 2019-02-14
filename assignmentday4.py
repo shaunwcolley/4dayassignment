@@ -30,7 +30,7 @@ def del_task():
             del tasks[(del_input - 1)]
             condition = False
         else:
-            print(f"Please give a up to {str(len(tasks) + 1)}, thank you!")
+            print(f"Please give a number up to {str(len(tasks) + 1)}, thank you!")
 
 user_input = ""
 
