@@ -25,7 +25,7 @@ def view_tasks():
 def del_task():
     condition = True
     while condition == True:
-        del_input = input("Which number task did you wish to remove?\n>> ")
+        del_input = int(input("Which number task did you wish to remove?\n>> "))
         if del_input <= len(tasks):
             del tasks[(del_input - 1)]
             condition = False
